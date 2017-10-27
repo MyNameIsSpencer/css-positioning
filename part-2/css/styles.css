@@ -12,6 +12,7 @@ html {
 }
 
 body {
+  width: 100%;
   margin: 0;
 }
 
@@ -23,7 +24,66 @@ figure {
   margin: 0;
 }
 
+article {
+  /*width: 100%;*/
+  /*max-width: 100%;*/
+  position: relative;
+  padding: 10px;
+  border: 1px solid grey;
+}
+
+
+
+.action-like {
+  text-align: right;
+}
+
+.fa {
+  color: red;
+}
+
+.action-watch-later {
+  position: absolute;
+  right: 6%;
+  top: 5%;
+
+}
+
+.film-poster {
+  position: relative;
+  width:32%;
+  /*float: left;*/
+  display: inline-block;
+  vertical-align: top;
+}
+
+.film-details {
+  text-align: top;
+
+  padding: 10px;
+  width: 60%;
+  /*float: left;*/
+  display: inline-block;
+}
+
+.film-title {
+  margin: 0;
+  vertical-align: top;
+}
+
+.film-description {
+  vertical-align: top;
+}
+
+.action-like {
+  /*vertical-align: bottom;*/
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+
 .film {
-  width: 50%;
+  width: 100%;
   margin: 40px auto;
 }
